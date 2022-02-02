@@ -8,7 +8,7 @@
 
 Sentiment analysis/ feedback analysis performed on e-commerce sites with the real-time data extracted from twitter. Pre-processing Data includes removing URLs, Emoji/Smiley, Mentions in tweets, Numbers, Punctuations, Extra spaces and Convert to lowercase. Word cloud is generated to get the mostly occuring word. Finding the sentiment scores using TextBlob and are classified as Strongly-Positive, Positive, Week-Positive, Neutral, Week -Negative, Negative, Strong-Negative. The results are visualised and Reported/presented.
 
-<center><img src="images/sentiments.jpg"/></center>
+<center><img src="/assets/img/sentiments.jpg"/></center>
 
 ---
 ### Linear Regression:
@@ -18,7 +18,7 @@ Sentiment analysis/ feedback analysis performed on e-commerce sites with the rea
 This Project is build for predicting number of bikes rented from a bike renting firm. For building this project Python, Flask, HTML and CSS are used. For analysis, Jupyter notebook is used.
 The Demo of this project is hosted on http://spragad.pythonanywhere.com/
 
-<center><img src="images/linear_reg.jpg"/></center>
+<center><img src="/assets/img/linear_reg.jpg"/></center>
 
 ---
 ## Artificial Intelligence:
@@ -29,7 +29,7 @@ The Demo of this project is hosted on http://spragad.pythonanywhere.com/
 
 A CNN model to classify an image with Cat or Dog.A CNN Model is trained with 5 'relu' layer and a 'sigmoid' layer to classify whether the given image contains a cat or a dog. This model is trained only for 20 epochs which resulted in 75% accurate model. Increasing the epochs to 300 or more with a custom Learning Rate can improve accuracy of the model.
 
-<center><img src="images/cat_dog_cnn.jpg"/></center>
+<center><img src="/assets/img/cat_dog_cnn.jpg"/></center>
 
 ---
 ### Human Detection 
@@ -38,7 +38,7 @@ A CNN model to classify an image with Cat or Dog.A CNN Model is trained with 5 '
 
 A real time detection algorithm in AI using open-source models using OpenCV and Yolov3 and fine tuning it, to detect humans. This project has a future scope of activity tracking and many other applications.
 
-<center><img src="images/human_detection.jpg"/></center>
+<center><img src="/assets/img/human_detection.jpg"/></center>
 
 ---
 ### Face Detection
@@ -48,7 +48,7 @@ A real time detection algorithm in AI using open-source models using OpenCV and 
 
 A real time detection algorithm in AI using open-source models like ultralight and yolo and fine tuning it, to detect human faces. This project has a future scope of face-recognition and many other applications.
 
-<center><img src="images/face_detection.jpg"/></center>
+<center><img src="/assets/img/face_detection.jpg"/></center>
 
 ---
 
