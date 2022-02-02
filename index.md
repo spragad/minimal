@@ -1,123 +1,54 @@
+# Machine Learning/Artificial Intelligence Portfolio
 ---
-layout: default
+## Machine learning:
+
+### Sentiment_analysis:
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/spragad/Sentiment_analysis)
+
+Sentiment analysis/ feedback analysis performed on e-commerce sites with the real-time data extracted from twitter. Pre-processing Data includes removing URLs, Emoji/Smiley, Mentions in tweets, Numbers, Punctuations, Extra spaces and Convert to lowercase. Word cloud is generated to get the mostly occuring word. Finding the sentiment scores using TextBlob and are classified as Strongly-Positive, Positive, Week-Positive, Neutral, Week -Negative, Negative, Strong-Negative. The results are visualised and Reported/presented.
+
+<center><img src="images/sentiments.jpg"/></center>
+
+---
+### Linear Regression:
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/spragad/Bike_rental_regression)
+
+This Project is build for predicting number of bikes rented from a bike renting firm. For building this project Python, Flask, HTML and CSS are used. For analysis, Jupyter notebook is used.
+The Demo of this project is hosted on http://spragad.pythonanywhere.com/
+
+<center><img src="images/linear_reg.jpg"/></center>
+
+---
+## Artificial Intelligence:
+
+### CNN for image classification:
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/spragad/cat-dog-classify)
+
+A CNN model to classify an image with Cat or Dog.A CNN Model is trained with 5 'relu' layer and a 'sigmoid' layer to classify whether the given image contains a cat or a dog. This model is trained only for 20 epochs which resulted in 75% accurate model. Increasing the epochs to 300 or more with a custom Learning Rate can improve accuracy of the model.
+
+<center><img src="images/cat_dog_cnn.jpg"/></center>
+
+---
+### Human Detection 
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/spragad/Human-Detection)
+
+A real time detection algorithm in AI using open-source models using OpenCV and Yolov3 and fine tuning it, to detect humans. This project has a future scope of activity tracking and many other applications.
+
+<center><img src="images/human_detection.jpg"/></center>
+
+---
+### Face Detection
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/spragad/face_detection_ultra-light)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/spragad/face_detection_yolo)
+
+A real time detection algorithm in AI using open-source models like ultralight and yolo and fine tuning it, to detect human faces. This project has a future scope of face-recognition and many other applications.
+
+<center><img src="images/face_detection.jpg"/></center>
+
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
